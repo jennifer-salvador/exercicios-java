@@ -8,14 +8,12 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int senha = sc.nextInt();
+		int coodX = sc.nextInt();
+		int coodY = sc.nextInt();
 		
-		while (senha != 2002) {
-			System.out.println("Senha Invalida");
-			senha = sc.nextInt();
+		while (coodX != 0 && coodY != 0) {
+			
 		}
-		
-		System.out.println("Acesso Permitido");
 		
 		sc.close();
 	}
